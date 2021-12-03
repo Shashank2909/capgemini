@@ -10,8 +10,7 @@ def bmi():
     b = (weight/(height**2))* 10**4
     return jsonify({"body mass index":b})
 
-@app.route('/virat',methods=['Post'])
+@app.route('/virat',methods=['Post','Get'])
 def virat():
     return "world cup nahi jeet sakta vro....Biwi ke isharo pe G*nd matkani hai toh bolo"
-
 
